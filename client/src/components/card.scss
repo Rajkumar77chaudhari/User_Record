@@ -1,0 +1,26 @@
+.cardContainer {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(181, 249, 249);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 10px;
+  border: 1px solid rgb(132, 75, 185);
+}
+
+button{
+    margin: 5px 10px;
+    width: 70px;
+    height: 40px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: rgb(132, 75, 185);
+    color: yellow;
+    &:hover{
+        background-color: yellow;
+        color: rgb(132, 75, 185);
+    }
+}
